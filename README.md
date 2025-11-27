@@ -21,3 +21,4 @@ To study how **import prices** and **domestic value-added inflation (adjusted fo
 - Short-run effects exist but are weaker and adjust more gradually.
 
 ## Repository Structure
+Group10_Investment_Deflator_Econometrics_Report.pdf

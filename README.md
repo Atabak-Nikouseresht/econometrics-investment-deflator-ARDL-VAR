@@ -3,6 +3,11 @@
 This project analyzes the long-run and short-run determinants of **investment deflator inflation** using time-series econometric techniques.  
 It was completed as part of the Econometrics course at the University of Bologna.
 
+## Repository Maintainer
+
+**Atabak Nikouseresht**  
+MSc Applied Economics and Markets — University of Bologna
+
 ## Objective
 To study how **import prices** and **domestic value-added inflation (adjusted for indirect taxes)** affect investment-goods inflation over time.
 

@@ -17,4 +17,4 @@ The report describes positive long-run associations between the cost measures an
 This repository currently contains the PDF report only. It does not include the source data, analysis code, or a machine-readable replication workflow; the results therefore cannot be independently reproduced from the repository alone. Treat it as an academic case study in applied time-series econometrics, not a reusable forecasting tool.
 
 - **Academic context:** Econometrics course, University of Bologna
-- **Author:** Atabak Nikouseresht
+- **Authors:** Atabak Nikouseresht, Mahgol Lamei, and Kimia Shokri

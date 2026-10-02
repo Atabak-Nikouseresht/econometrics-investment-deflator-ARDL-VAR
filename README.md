@@ -12,7 +12,7 @@ The report presents positive ARDL/Engle–Granger associations for domestic-cost
 
 ## Report
 
-- [`Group10_Investment_Deflator_Econometrics_Report.pdf`](Group10_Investment_Deflator_Econometrics_Report.pdf) — the project report. Student identifiers visible on the cover and an inconsistent PDF author metadata entry have been removed; author names in the report are retained.
+- [`Group10_Investment_Deflator_Econometrics_Report.pdf`](Group10_Investment_Deflator_Econometrics_Report.pdf) — the project report. Student identifiers visible on the cover have been removed, and PDF author metadata now matches the credited authors; the report authorship is retained.
 
 ## Scope and reproducibility
 

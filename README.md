@@ -1,20 +1,22 @@
 # Investment Deflator Inflation — ARDL and Cointegrated VAR
 
-A University of Bologna econometrics course report examining the relationship between investment-deflator inflation, domestic value-added inflation adjusted for indirect taxes, and import-price inflation.
+A University of Bologna econometrics course report examining investment-deflator inflation alongside domestic value-added inflation adjusted for indirect taxes and import-price inflation.
 
-## Question and methods
+## Scope and methods
 
-The report frames the analysis as a cost-push inflation question. It documents unit-root and preliminary time-series analysis, an ARDL specification with bounds testing, Johansen cointegration, VAR/VECM analysis, impulse responses, and diagnostic tests.
+The report documents preliminary time-series plots and ADF tests, Hodrick–Prescott filtered gaps, VAR and impulse-response analysis, an ARDL specification, Engle–Granger residual testing, and Johansen cointegration analysis. It also refers to Pesaran–Shin–Smith (PSS) bounds testing, but does not provide a bounds-test statistic and critical-value table. The report describes a cointegrated VAR; this repository does not include material sufficient to verify a separate VECM implementation.
+
+## Reported results and limits
+
+The report presents positive ARDL/Engle–Granger associations for domestic-cost and import-price measures, but its Johansen discussion gives a different sign for imports and reports no long-run role for the domestic-cost measure. Its ADF table and accompanying interpretation also conflict, and some described tests lack the underlying output needed to check the claims. These are claims reported in the document, not independently verified findings. The repository does not establish causal effects or support forecasts.
 
 ## Report
 
-- [`Group10_Investment_Deflator_Econometrics_Report.pdf`](Group10_Investment_Deflator_Econometrics_Report.pdf) — the complete project report, including the reported empirical analysis and interpretation.
-
-The report describes positive long-run associations between the cost measures and investment-deflator inflation. These are the report's empirical interpretations, not causal effects established by this repository.
+- [`Group10_Investment_Deflator_Econometrics_Report.pdf`](Group10_Investment_Deflator_Econometrics_Report.pdf) — the project report. Student identifiers visible on the cover and an inconsistent PDF author metadata entry have been removed; author names in the report are retained.
 
 ## Scope and reproducibility
 
-This repository currently contains the PDF report only. It does not include the source data, analysis code, or a machine-readable replication workflow; the results therefore cannot be independently reproduced from the repository alone. Treat it as an academic case study in applied time-series econometrics, not a reusable forecasting tool.
+This repository contains the PDF report and this README only. The original source data, analysis code, and a machine-readable replication workflow are absent, so the reported analysis cannot be independently reproduced from this repository alone. Treat it as an academic case study in applied time-series econometrics, not a reusable forecasting tool.
 
 - **Academic context:** Econometrics course, University of Bologna
 - **Authors:** Atabak Nikouseresht, Mahgol Lamei, and Kimia Shokri

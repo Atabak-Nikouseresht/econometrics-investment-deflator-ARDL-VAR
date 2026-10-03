@@ -1,22 +1,28 @@
-# Investment Deflator Inflation — ARDL and Cointegrated VAR
+# Investment Deflator Inflation — ARDL and VAR
 
-A University of Bologna econometrics course report examining investment-deflator inflation alongside domestic value-added inflation adjusted for indirect taxes and import-price inflation.
+A **collaborative academic project** for an econometrics course at the University of Bologna, examining investment-deflator inflation alongside adjusted domestic value-added inflation and import-deflator inflation.
 
-## Scope and methods
+> **Archival report only. Read the [ERRATA](ERRATA.md) before interpreting the results.** The report contains confirmed interpretation and coefficient-attribution inconsistencies; its PSS bounds-test claim is not independently verifiable from the published material.
 
-The report documents preliminary time-series plots and ADF tests, Hodrick–Prescott filtered gaps, VAR and impulse-response analysis, an ARDL specification, Engle–Granger residual testing, and Johansen cointegration analysis. It also refers to Pesaran–Shin–Smith (PSS) bounds testing, but does not provide a bounds-test statistic and critical-value table. The report describes a cointegrated VAR; this repository does not include material sufficient to verify a separate VECM implementation.
+## Public report and methods
 
-## Reported results and limits
+[Read the original project report](Group10_Investment_Deflator_Econometrics_Report.pdf) (51 PDF pages). The PDF is retained unchanged by this documentation review.
 
-The report presents positive ARDL/Engle–Granger associations for domestic-cost and import-price measures, but its Johansen discussion gives a different sign for imports and reports no long-run role for the domestic-cost measure. Its ADF table and accompanying interpretation also conflict, and some described tests lack the underlying output needed to check the claims. These are claims reported in the document, not independently verified findings. The repository does not establish causal effects or support forecasts.
+The report presents time-series plots and correlograms, augmented Dickey–Fuller (ADF) tests, Hodrick–Prescott filtered gaps, VAR estimates and impulse responses, an autoregressive distributed lag (ARDL) model, Engle–Granger residual testing, and Johansen analysis. It also discusses Pesaran–Shin–Smith (PSS) bounds testing without publishing the information needed to check that test.
 
-## Report
+These are methods and results **reported in the coursework**, not independently replicated findings. The errata distinguish corrections supported by displayed output from unresolved specification and reporting gaps. This repository does not establish causal effects or validated forecasting performance.
 
-- [`Group10_Investment_Deflator_Econometrics_Report.pdf`](Group10_Investment_Deflator_Econometrics_Report.pdf) — the project report. Student identifiers visible on the cover have been removed, and PDF author metadata now matches the credited authors; the report authorship is retained.
+## Reproducibility
 
-## Scope and reproducibility
+| Available | Unavailable in this repository |
+| --- | --- |
+| PDF narrative, figures, tables and embedded software-output screenshots | Original source data and transformation files |
+| This guide and a page-specific documentation review | Original analysis scripts, saved model/session files and a runnable replication workflow |
 
-This repository contains the PDF report and this README only. The original source data, analysis code, and a machine-readable replication workflow are absent, so the reported analysis cannot be independently reproduced from this repository alone. Treat it as an academic case study in applied time-series econometrics, not a reusable forecasting tool.
+The original estimation cannot be independently reproduced from this repository alone. No models have been re-estimated, results reconstructed, or new empirical findings added during this review.
 
-- **Academic context:** Econometrics course, University of Bologna
-- **Authors:** Atabak Nikouseresht, Mahgol Lamei, and Kimia Shokri
+## Authorship
+
+**Atabak Nikouseresht, Mahgol Lamei, and Kimia Shokri.**
+
+The report and surviving public repository history do not reliably separate individual coauthor contributions. Repository maintenance, Git commit authorship and PDF metadata are not evidence of who performed particular analytical tasks; no individual analysis roles are assigned here.
